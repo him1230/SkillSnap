@@ -1,0 +1,387 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio2022\\Projects\\SkillSnap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\models\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:models\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\models\\skillprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:models\\skillprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\services\\skillmatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:services\\skillmatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\recommendation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\recommendation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\models\\jobskilloutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:models\\jobskilloutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\models\\jobskillnput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:models\\jobskillnput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\models\\jobrecommendationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:models\\jobrecommendationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\skills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\skills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\wwwroot\\js\\recommendation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:wwwroot\\js\\recommendation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\skills\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\skills\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\views\\skills\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:views\\skills\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|d:\\visualstudio2022\\projects\\skillsnap\\data\\migrations\\20260107175204_addjobsandjobskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210288B4-8C4C-4773-9886-39CA82088FF4}|SkillSnap.csproj|solutionrelative:data\\migrations\\20260107175204_addjobsandjobskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 2057,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SkillsController.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "Controllers\\SkillsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T17:20:12.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobSkillOutput.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\JobSkillOutput.cs",
+              "RelativeDocumentMoniker": "Models\\JobSkillOutput.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\JobSkillOutput.cs",
+              "RelativeToolTip": "Models\\JobSkillOutput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T20:09:08.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobSkillnput.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\JobSkillnput.cs",
+              "RelativeDocumentMoniker": "Models\\JobSkillnput.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\JobSkillnput.cs",
+              "RelativeToolTip": "Models\\JobSkillnput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA3wAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T20:07:56.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:50:42.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JobRecommendationViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\JobRecommendationViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\JobRecommendationViewModel.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\JobRecommendationViewModel.cs",
+              "RelativeToolTip": "Models\\JobRecommendationViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T17:01:17.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecommendationController.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Controllers\\RecommendationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecommendationController.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Controllers\\RecommendationController.cs",
+              "RelativeToolTip": "Controllers\\RecommendationController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAqwM8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T18:00:18.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Recommendation\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recommendation\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Recommendation\\Index.cshtml",
+              "RelativeToolTip": "Views\\Recommendation\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T18:04:54.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SkillData.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\SkillData.cs",
+              "RelativeDocumentMoniker": "Models\\SkillData.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\SkillData.cs",
+              "RelativeToolTip": "Models\\SkillData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T18:12:26.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SkillPrediction.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\SkillPrediction.cs",
+              "RelativeDocumentMoniker": "Models\\SkillPrediction.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Models\\SkillPrediction.cs",
+              "RelativeToolTip": "Models\\SkillPrediction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:03:12.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SkillMatchService.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Services\\SkillMatchService.cs",
+              "RelativeDocumentMoniker": "Services\\SkillMatchService.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Services\\SkillMatchService.cs",
+              "RelativeToolTip": "Services\\SkillMatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T20:46:26.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAABSwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:49:40.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\Create.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Create.cshtml",
+              "RelativeToolTip": "Views\\Skills\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-03T16:02:29.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Index.cshtml",
+              "RelativeToolTip": "Views\\Skills\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-03T15:14:46.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T18:17:50.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T18:17:54.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "recommendation.js",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\wwwroot\\js\\recommendation.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\recommendation.js",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\wwwroot\\js\\recommendation.js",
+              "RelativeToolTip": "wwwroot\\js\\recommendation.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-08T18:17:59.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAABSwB0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T15:53:23.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260107175204_AddJobsAndJobSkills.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Data\\Migrations\\20260107175204_AddJobsAndJobSkills.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260107175204_AddJobsAndJobSkills.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Data\\Migrations\\20260107175204_AddJobsAndJobSkills.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260107175204_AddJobsAndJobSkills.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA1wD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:52:04.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T15:58:37.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA4wA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T14:34:54.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\Edit.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Skills\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAABSwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T17:06:31.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\Delete.cshtml",
+              "ToolTip": "D:\\VisualStudio2022\\Projects\\SkillSnap\\Views\\Skills\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Skills\\Delete.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwBkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T17:07:48.178Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

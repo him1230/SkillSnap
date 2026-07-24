@@ -1,0 +1,25 @@
+﻿Skills;JobRole
+"C#,ASP.NET,SQL","Backend Developer"
+"C#,ASP.NET,Web API","Backend Developer"
+"Java,Spring,MySQL","Backend Developer"
+"Node.js,Express,MongoDB","Backend Developer"
+
+"HTML,CSS,JavaScript","Frontend Developer"
+"HTML,CSS,React","Frontend Developer"
+"JavaScript,Angular","Frontend Developer"
+
+"C#,ASP.NET,SQL,HTML,CSS","Full Stack Developer"
+"Java,Spring,React","Full Stack Developer"
+"Node.js,React,MongoDB","Full Stack Developer"
+
+"Python,SQL,Excel","Data Analyst"
+"Python,Pandas,Power BI","Data Analyst"
+"SQL,Excel,Tableau","Data Analyst"
+
+"AWS,Docker,CI/CD","DevOps Engineer"
+"Linux,Kubernetes,AWS","DevOps Engineer"
+
+"Manual Testing,Test Cases","QA Tester"
+"Selenium,Automation,Java","QA Tester"
+
+"Figma,Photoshop,UI Design","UI Designer"

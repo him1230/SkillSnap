@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SkillSnap.Models.Skill>
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Skills</h4>
+            <a asp-action="Create" class="btn btn-light btn-sm">+ Add Skill</a>
+        </div>
+
+        <div class="card-body">
+            @if (!Model.Any())
+            {
+                <p class="text-muted text-center">No skills added yet.</p>
+            }
+            else
+            {
+                <table class="table table-bordered table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Skill Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int i = 1;
+                        }
+                        @foreach (var skill in Model)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td>@skill.Name</td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@skill.Id"
+                                       class="btn btn-sm btn-warning">Edit</a>
+
+                                    <a asp-action="Delete" asp-route-id="@skill.Id"
+                                       class="btn btn-sm btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>

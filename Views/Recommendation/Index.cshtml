@@ -1,0 +1,131 @@
+﻿@model IEnumerable<SkillSnap.Models.JobRecommendationViewModel>
+
+<!-- Google Fonts aur Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net">
+
+<style>
+    .job-card {
+        transition: all 0.3s ease;
+        border: none;
+        border-radius: 15px;
+        background: #ffffff;
+    }
+
+        .job-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+        }
+
+    .match-badge {
+        background: linear-gradient(45deg, #0d6efd, #0099ff);
+        font-size: 0.9rem;
+        padding: 8px 12px;
+        border-radius: 10px;
+    }
+
+    .skill-chip {
+        background: #f0f7ff;
+        color: #0d6efd;
+        border: 1px solid #d0e3ff;
+        border-radius: 50px;
+        padding: 4px 12px;
+        font-size: 0.75rem;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .explanation-box {
+        background: #f8f9fa;
+        border-left: 4px solid #0d6efd;
+        border-radius: 8px;
+    }
+
+    .progress {
+        height: 6px;
+        border-radius: 10px;
+        background-color: #e9ecef;
+    }
+</style>
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold display-6 mb-2"><span class="text-primary">AI</span> Job Recommendation</h2>
+        <p class="text-secondary">Personalized roles matched with your skills</p>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="text-center py-5">
+            <i class="bi bi-search-heart display-1 text-muted opacity-25"></i>
+            <h4 class="mt-3 text-secondary">No strong matches yet...</h4>
+            <p class="text-muted">Keep adding skills to see AI-powered suggestions!</p>
+            <a href="@Url.Action("Create", "Skills")" class="btn btn-primary rounded-pill px-4">Add Skills</a>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var item in Model)
+            {
+                var uniqueId = "exp_" + Math.Abs(item.JobTitle.GetHashCode());
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card job-card shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <!-- Header -->
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <h5 class="fw-bold text-dark pe-2">@item.JobTitle</h5>
+                                <span class="badge match-badge">@item.MatchScore%</span>
+                            </div>
+
+                            <!-- Match Progress Bar -->
+                            <div class="progress mb-4">
+                                <div class="progress-bar" role="progressbar"
+                                     style="width: @item.MatchScore%"
+                                     aria-valuenow="@item.MatchScore" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <!-- Skills -->
+                            <p class="text-uppercase small fw-bold text-muted mb-2" style="letter-spacing: 1px;">Top Matched Skills</p>
+                            <div class="mb-4">
+                                @if (item.MatchedSkills != null && item.MatchedSkills.Any())
+                                {
+                                    @foreach (var s in item.MatchedSkills)
+                                    {
+                                        <div class="skill-chip fw-semibold"><i class="bi bi-check-circle-fill me-1"></i>@s</div>
+                                    }
+                                }
+                                else
+                                {
+                                    <span class="text-muted small italic">Processing deep match...</span>
+                                }
+                            </div>
+
+                            <!-- Button -->
+                            <button class="btn btn-light text-primary fw-bold w-100 rounded-pill shadow-sm"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#@uniqueId">
+                                <i class="bi bi-robot me-2"></i>Why this job?
+                            </button>
+
+                            <!-- AI Explanation -->
+                            <div class="collapse mt-3" id="@uniqueId">
+                                <div class="explanation-box p-3 small shadow-inner">
+                                    <p class="mb-0 text-dark">
+                                        <strong>AI Insights:</strong><br />
+                                        @item.AIExplanation
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="~/js/recommendation.js"></script>
+}
